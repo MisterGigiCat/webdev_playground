@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Quicksand, sans-serif;
+    color: rgb(45, 45, 45);
+    background: linear-gradient(120deg, rgb(58, 255, 186),rgb(45, 227, 255));
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.top {
+    padding: 2em;
+}
+
+form input{
+    border-radius: 0.5em;
+    width: 20em;
+    height: 2em;
+    padding:1em;
+    font-family: Quicksand, sans-serif ;
+}

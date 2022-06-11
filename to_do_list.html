@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="to_do_list_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Fira+Sans&family=Poppins:wght@200&family=Quicksand:wght@300;400;700&family=Roboto+Slab:wght@100;300&family=Roboto:wght@300&family=Yesteryear&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <h1>The ToDo List App</h1>
+        <p>This is the first file in my new Git Repo.</p>
+    </div>
+
+
+    <div class="todos">
+        <form action="">
+            <input  type="text">
+            <input id="todoItem" type="submit" style="display: none" />
+        </form>
+    </div>
+<script>
+    let input = document.getElementById("todoItem")
+    input.addEventListener("click",()=>{
+        alert("This works")
+    })
+</script>
+
+</body>
+
+</html>
